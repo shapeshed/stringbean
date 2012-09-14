@@ -7,7 +7,7 @@
   ],
   "main": "./lib/stringbean",
   "author": "George Ornbo <george@shapeshed.com> (http://shapeshed.com)",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "node": "*"
   },
