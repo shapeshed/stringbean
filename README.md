@@ -28,7 +28,7 @@ Converts HTML tags to entities
 Removes non alphanumeric characters from a string
 
     var someString = "$£@@$%^foo(*&^%$£!@";
-    console.log(stringbean.removeNonAlphanumeric(testString));
+    console.log(stringbean.removeNonAlphanumeric(someString));
 
     foo
 
