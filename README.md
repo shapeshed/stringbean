@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/shapeshed/stringbean.png)](http://travis-ci.org/shapeshed/stringbean)
 
-Stringbean is a collection of string helper methods that dont't clobber the `String` prototype. 
+Stringbean is a collection of string helper methods that don't clobber the `String` prototype. 
 
 ## Installation
 
