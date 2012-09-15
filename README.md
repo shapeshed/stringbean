@@ -39,7 +39,7 @@ Removes non alpha characters from a string
     var someString = "ABC123def";
     console.log(stringbean.removeAlpha(someString));
 
-    foo
+    ABCdef
 
 ### removeNonAlphanumeric
 
