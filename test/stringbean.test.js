@@ -43,3 +43,17 @@ describe('when passing a string to the removeNumeric method', function(done){
     done();
   })
 })
+describe('when passing a string to the base64Encode method', function(done){
+  it('should correctly base64 encode the string', function(done){
+    var testString = "base64encodethisplz";
+    assert.strictEqual("YmFzZTY0ZW5jb2RldGhpc3Bseg==", stringbean.base64Encode(testString));
+    done();
+  })
+})
+describe('when passing a string to the base64Decode method', function(done){
+  it('should correctly base64 decode the string', function(done){
+    var testString = "YmFzZTY0ZGVjb2RldGhpc3Bseg==";
+    assert.strictEqual("base64decodethisplz", stringbean.base64Decode(testString));
+    done();
+  })
+})

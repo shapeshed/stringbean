@@ -67,3 +67,22 @@ Removes numeric characters from a string
     console.log(stringbean.removeNumeric(someString));
 
     fooabcbar
+
+### base64Encode
+
+Removes numeric characters from a string
+
+    var someString = "base64encodethisplz";
+    console.log(stringbean.base64Decode(someString));
+
+    YmFzZTY0ZW5jb2RldGhpc3Bseg==
+
+### base64Decode
+
+Removes numeric characters from a string
+
+    var someString = "YmFzZTY0ZGVjb2RldGhpc3Bsegl";
+    console.log(stringbean.base64Decode(someString));
+
+    base64decodethisplz
+
