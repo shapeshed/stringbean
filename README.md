@@ -70,7 +70,7 @@ Removes numeric characters from a string
 
 ### base64Encode
 
-Removes numeric characters from a string
+Base64 encodes a string
 
     var someString = "base64encodethisplz";
     console.log(stringbean.base64Decode(someString));
@@ -79,7 +79,7 @@ Removes numeric characters from a string
 
 ### base64Decode
 
-Removes numeric characters from a string
+Base64 decodes a string
 
     var someString = "YmFzZTY0ZGVjb2RldGhpc3Bsegl";
     console.log(stringbean.base64Decode(someString));
