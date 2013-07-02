@@ -86,3 +86,12 @@ Base64 decodes a string
 
     base64decodethisplz
 
+### isJSON
+
+Returns true if a string is JSON
+
+    var someString = '{"some":"json"}';
+    console.log(stringbean.isJSON(someString));
+
+    true
+

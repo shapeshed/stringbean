@@ -57,3 +57,17 @@ describe('when passing a string to the base64Decode method', function(done){
     done();
   });
 });
+describe('when passing a JSON string to the isJSON method', function(done){
+  it('should return true', function(done){
+    var testString = JSON.stringify({ some: "object" });
+    assert.strictEqual(true, stringbean.isJSON(testString));
+    done();
+  });
+});
+describe('when passing an invalid JSON string to the isJSON method', function(done){
+  it('should return false', function(done){
+    var testString = "this is not JSON";
+    assert.strictEqual(false, stringbean.isJSON(testString));
+    done();
+  });
+});
