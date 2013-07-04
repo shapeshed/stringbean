@@ -95,3 +95,11 @@ Returns true if a string is JSON
 
     true
 
+### capitalize
+
+Capitalizes the first character of a string
+
+    var someString = 'uppercase this';
+    console.log(stringbean.capitalize(someString));
+
+    Uppercase this 

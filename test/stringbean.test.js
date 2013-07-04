@@ -61,3 +61,9 @@ describe('when passing an invalid JSON string to the isJSON method', function(){
     assert.strictEqual(false, stringbean.isJSON(testString));
   });
 });
+describe('when passing a string to the capitalize method', function(){
+  it('should uppercase the first character', function(){
+    var testString = "uppercase this";
+    assert.strictEqual('Uppercase this', stringbean.capitalize(testString));
+  });
+});
