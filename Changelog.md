@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.3.1 - 04/07/13
+* [FEATURE] Add capitalize method
+
 ## 0.3.0 - 02/07/13
 * [FEATURE] Add isJSON method
 
